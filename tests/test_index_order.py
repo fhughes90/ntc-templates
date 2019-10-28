@@ -65,6 +65,7 @@ def test_index_ordering():
         'alcatel_sros', 'linux', 'ovs_linux', 'paloalto_panos', 'quanta_mesh','ruckus_fastiron',
         'ubiquiti_edgeswitch', 'vmware_nsxv', 'vyatta_vyos', 'vyos', 'watchguard_firebox', 
         'siemens_ros',
+
     ]
 
     prior_os = ""
