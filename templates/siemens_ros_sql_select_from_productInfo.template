@@ -1,3 +1,4 @@
+Value MAC_ADDRESS (\S+)
 Value ORDER_CODE (\S+)
 Value SERIAL_NUMBER (\S+)
 Value MAIN_VERSION (v\S+)
@@ -6,4 +7,4 @@ Value BOOT_VERSION (v\S+)
 
 Start
   ^MAC 
-  ^\S+\s+${ORDER_CODE}\s+\S+\s+${SERIAL_NUMBER}\s+${BOOT_VERSION}.+?${MAIN_VERSION} -> Record
+  ^${MAC_ADDRESS}\s+${ORDER_CODE}\s+\S+\s+${SERIAL_NUMBER}\s+${BOOT_VERSION}.+?${MAIN_VERSION} -> Record
