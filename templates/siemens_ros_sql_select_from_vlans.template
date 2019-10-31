@@ -1,7 +1,7 @@
 Value VID (\d+)
 Value FID (\d+)
-Value UNTAGGED_PORTS (\w+\S+)
-Value TAGGED_PORTS (\w+\S+)
+Value UNTAGGED_PORTS (\S+)
+Value TAGGED_PORTS (\S+)
 
 Start
   ^VID
